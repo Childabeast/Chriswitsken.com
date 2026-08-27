@@ -1913,7 +1913,7 @@ p {
               <h3>Manufacturing Engineer</h3>
               <p>Supporting manufacturing through engineering troubleshooting, non-conformance investigation, process improvement, technical documentation, data organization, and cross-functional problem solving.</p>
               <p class="privacy-note">Public portfolio description intentionally excludes proprietary programs, customer information, production metrics, internal drawings, and confidential manufacturing data.</p>
-              <div class="tag-row"><span>Manufacturing Engineering</span><span>Troubleshooting</span><span>NCR Support</span><span>Process Improvement</span><span>Engineering Data</span></div>
+              <div class="tag-row"><span>Manufacturing Engineering</span><span>Troubleshooting</span><span>Process Improvement</span><span>Engineering Data</span></div>
             </div>
           </article>
         </div>
@@ -1954,30 +1954,9 @@ p {
           </div>
         </article>
 
-        <article class="feature-project reverse project-item" data-categories="manufacturing software" data-reveal="up">
-          <a class="project-visual database-visual" href="projects/manufacturing-database.html" aria-label="Open Manufacturing NCR and Troubleshooting Database case study">
-            <div class="project-label">PROJECT / 002</div>
-            <div class="mock-app" aria-hidden="true">
-              <div class="mock-top"><span>MANUFACTURING ISSUE DATABASE</span><i></i></div>
-              <div class="mock-search">Search part number, NCR, work center, issue… <span>⌘K</span></div>
-              <div class="mock-layout">
-                <div class="mock-sidebar"><b>RESULTS</b><span class="selected">PART / SAMPLE-001</span><span>PART / SAMPLE-002</span><span>PART / SAMPLE-003</span></div>
-                <div class="mock-content"><div class="mock-title"><span>PART HISTORY</span><strong>SAMPLE-001</strong></div><div class="mock-row"><span>NCR</span><b>Sanitized record</b><i>Closed</i></div><div class="mock-row"><span>ISSUE</span><b>Historical troubleshooting entry</b><i>Resolved</i></div><div class="mock-row"><span>DATA</span><b>Indexed local record</b><i>Offline</i></div></div>
-              </div>
-            </div>
-          </a>
-          <div class="project-copy">
-            <div class="project-kicker"><span>2026</span><span>MANUFACTURING / SOFTWARE / DATA</span></div>
-            <h3><a href="projects/manufacturing-database.html">Manufacturing NCR & Troubleshooting Database</a></h3>
-            <p>A local engineering productivity tool designed to turn large manufacturing exports and troubleshooting history into fast, part-centered search. Built for a locked-down Windows environment with simple deployment and no cloud dependency.</p>
-            <div class="tag-row"><span>Python</span><span>Tkinter</span><span>SQLite</span><span>CSV Import</span><span>Indexing</span><span>Duplicate Detection</span></div>
-            <a class="project-link" href="projects/manufacturing-database.html">Read technical case study <span>↗</span></a>
-          </div>
-        </article>
-
         <div class="additional-projects" id="project-grid">
-          <article class="mini-project project-item" data-categories="hardware" data-reveal="up"><div class="mini-top"><span>PROJECT / 003</span><span>HARDWARE</span></div><h3>Bench Hardware & Power Electronics</h3><p>Reusable space for personal electronics builds, high-voltage experiments, power conversion, gate-drive work, and hardware debugging notes.</p><div class="tag-row"><span>Power</span><span>Bring-up</span><span>Debug</span></div><span class="future-note">Add a dedicated case study when ready.</span></article>
-          <article class="mini-project project-item" data-categories="software manufacturing" data-reveal="up"><div class="mini-top"><span>PROJECT / 004</span><span>AUTOMATION</span></div><h3>Engineering Workflow Tools</h3><p>A home for small utilities that reduce repetitive engineering work: data cleanup, offline launchers, searchable reference tools, and manufacturing workflow helpers.</p><div class="tag-row"><span>Python</span><span>HTML/CSS/JS</span><span>Automation</span></div><span class="future-note">Only sanitized, non-proprietary examples.</span></article>
+          <article class="mini-project project-item" data-categories="hardware" data-reveal="up"><div class="mini-top"><span>PROJECT / 002</span><span>HARDWARE</span></div><h3>Bench Hardware & Power Electronics</h3><p>Reusable space for personal electronics builds, high-voltage experiments, power conversion, gate-drive work, and hardware debugging notes.</p><div class="tag-row"><span>Power</span><span>Bring-up</span><span>Debug</span></div><span class="future-note">Add a dedicated case study when ready.</span></article>
+          <article class="mini-project project-item" data-categories="software manufacturing" data-reveal="up"><div class="mini-top"><span>PROJECT / 003</span><span>AUTOMATION</span></div><h3>Engineering Workflow Tools</h3><p>A home for small utilities that reduce repetitive engineering work: data cleanup, offline launchers, searchable reference tools, and manufacturing workflow helpers.</p><div class="tag-row"><span>Python</span><span>HTML/CSS/JS</span><span>Automation</span></div><span class="future-note">Only sanitized, non-proprietary examples.</span></article>
         </div>
       </div>
     </section>
@@ -2021,7 +2000,7 @@ p {
             <details data-reveal="up"><summary>Embedded <span>02</span></summary><p>Arduino · ESP32 · Microcontrollers · ADCs · Embedded C/C++ · Serial communication · Hardware/software integration</p></details>
             <details data-reveal="up"><summary>Signal Processing <span>03</span></summary><p>Goertzel algorithm · Digital filtering · Cross-correlation · TDOA · Direction finding · FFT concepts</p></details>
             <details data-reveal="up"><summary>Software <span>04</span></summary><p>Python · C/C++ · HTML · CSS · JavaScript · SQLite · Git · GitHub · Engineering automation</p></details>
-            <details data-reveal="up"><summary>Manufacturing <span>05</span></summary><p>Troubleshooting · NCR analysis · Manufacturing data · Root-cause investigation · Process improvement · Technical documentation</p></details>
+            <details data-reveal="up"><summary>Manufacturing <span>05</span></summary><p>Troubleshooting · Manufacturing data · Root-cause investigation · Process improvement · Technical documentation</p></details>
           </div>
         </div>
       </div>
@@ -2061,8 +2040,7 @@ p {
 "use strict";
 
 const PROJECTS = Object.freeze([
-  {id:"usv",title:"Autonomous Search-and-Rescue USV",year:"2025",categories:["hardware","embedded","dsp"],technologies:["Arduino UNO R4","ESP32","Hydrophones","Goertzel","TDOA"],page:"projects/usv.html"},
-  {id:"manufacturing-database",title:"Manufacturing NCR & Troubleshooting Database",year:"2026",categories:["manufacturing","software"],technologies:["Python","Tkinter","SQLite","CSV Import","Indexing"],page:"projects/manufacturing-database.html"}
+  {id:"usv",title:"Autonomous Search-and-Rescue USV",year:"2025",categories:["hardware","embedded","dsp"],technologies:["Arduino UNO R4","ESP32","Hydrophones","Goertzel","TDOA"],page:"projects/usv.html"}
 ]);
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
